@@ -1,0 +1,39 @@
+body{
+    background-color: beige;
+}
+
+h1{
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+.container{
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:flex-start;
+}
+
+.dates{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    margin-top: 40px;
+    width: 140px;
+}
+
+.chat{
+    margin-left: 100px;
+    /* margin-top: 50px; */
+}
+
+.newElem{
+    margin-top: 50px;
+}
